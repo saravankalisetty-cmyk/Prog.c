@@ -1,0 +1,87 @@
+#include<stdio.h>
+main()
+{
+	int moviechoice,numtickets;
+	int  price,total;
+	while(1)
+	{
+	printf("Available Movies\n");
+	printf("1:KUBARA\n");
+	printf("2:HIT 3\n");
+	printf("3:Kanapa\n");
+	printf("4:Oh Bhama ayyo Rama\n");
+	printf("5:Junior\n");
+	printf("6:Hari Hara Veera Mallu\n");
+	printf("7.Exit\n");
+	printf("Enter the movie number to book tickets:");
+	scanf("%d",&moviechoice);
+	switch(moviechoice){
+		case 1:
+			price=150;
+			printf("Enter the numbers of tickets:");
+			scanf("%d",&numtickets); 
+			printf("-_-_-_-Bill-_-_-_-\n");
+	        printf("Numbers of tickets:%d\n",numtickets);
+	        printf("total price:%.2d\n",total=price*numtickets);
+	        printf("-_-_--_Enjoy The Movie_--_-_-\n");
+	        printf("\t\tThanks\t\t\n");
+	        break;
+	    case 2:
+			price=150;
+			printf("Enter the numbers of tickets:");
+			scanf("%d",&numtickets); 
+			printf("-_-_-_-Bill-_-_-_-\n");
+	        printf("Numbers of tickets:%d\n",numtickets);
+	        printf("total price:%.2d\n",total=price*numtickets);
+	        printf("-_-_--_Enjoy The Movie_--_-_-\n");
+	        printf("\t\tThanks\t\t\n");
+	        break;
+	    case 3:
+			price=150;
+			printf("Enter the numbers of tickets:");
+			scanf("%d",&numtickets); 
+			printf("-_-_-_-Bill-_-_-_-\n");
+	        printf("Numbers of tickets:%d\n",numtickets);
+	        printf("total price:%.2d\n",total=price*numtickets);
+	        printf("-_-_--_Enjoy The Movie_--_-_-\n");
+	        printf("\t\tThanks\t\t\n");
+	        break;
+	    case 4:
+			price=150;
+			printf("Enter the numbers of tickets:");
+			scanf("%d",&numtickets); 
+			printf("-_-_-_-Bill-_-_-_-\n");
+	        printf("Numbers of tickets:%d\n",numtickets);
+	        printf("total price:%.2d\n",total=price*numtickets);
+	        printf("-_-_--_Enjoy The Movie_--_-_-\n");
+	        printf("\t\tThanks\t\t\n");
+	        break;
+	    case 5:
+			price=150;
+			printf("Enter the numbers of tickets:");
+			scanf("%d",&numtickets); 
+			printf("-_-_-_-Bill-_-_-_-\n");
+	        printf("Numbers of tickets:%d\n",numtickets);
+	        printf("total price:%.2d\n",total=price*numtickets);
+	        printf("-_-_--_Enjoy The Movie_--_-_-\n");
+	        printf("\t\tThanks\t\t\n");
+	        break;
+	    case 6:
+			price=150;
+			printf("Enter the numbers of tickets:");
+			scanf("%d",&numtickets); 
+			printf("-_-_-_-Bill-_-_-_-\n");
+	        printf("Numbers of tickets:%d\n",numtickets);
+	        printf("total price:%.2d\n",total=price*numtickets);
+	        printf("-_-_--_Enjoy The Movie_--_-_-\n");
+	        printf("\t\tThanks\t\t\n");
+	        break;
+	    case 7:
+	    	printf("Thanks ... exiting...");
+	    	return 0;
+	    default:
+	    	printf("That movie is not there\n");
+	    	printf("-_-_-_-Thanks Sir-_-_-_-\n");
+	} 
+	}
+}

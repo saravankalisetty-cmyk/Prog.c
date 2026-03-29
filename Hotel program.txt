@@ -1,0 +1,79 @@
+#include<stdio.h>
+main()
+{
+	int choice,no_of_items,bill;
+	int feedback_choice;
+	printf("\n_-_-_-_-_Hotel Menu_-_-_-_-_\n");
+	printf("1.Idli with samber and Coconut Chutney 40Rs\n");
+	printf("2.Masala Dosa with Tomato Chutney 50Rs\n");
+	printf("3.Pongal with Ghee 60Rs\n");
+	printf("4.Upma with Karama Chutney 50Rs\n");
+	printf("5.Rava Dosa with Ginger chutney 70Rs\n");
+   while(1)
+	{
+	
+	
+    printf("Which tiffin do you want");
+	scanf("%d",&choice);
+	switch(choice)
+	case 1:{
+    	printf("How many do you want sir?");
+		scanf("%d",&no_of_items);
+		printf("\n-_-_-__Bill__-_-_-\n");
+		printf("Total Bill=%d\n",bill=no_of_items*40);
+		printf("-_-_-Thanks-_-_-\n");
+		printf("-_-Visit again-_-\n");
+	break;
+	case 2:
+		printf("How many do you want sir?");
+		scanf("%d",&no_of_items);
+		printf("\n-_-_-__Bill__-_-_-\n");
+		printf("Total Bill=%d\n",bill=no_of_items*50);
+		printf("-_-_-Thanks-_-_-\n");
+		printf("-_-Visit again-_-\n");
+		break;
+	case 3:
+		printf("How many do you want sir?");
+		scanf("%d",&no_of_items);
+		printf("\n-_-_-__Bill__-_-_-\n");
+		printf("Total Bill=%d\n",bill=no_of_items*60);
+		printf("-_-_-Thanks-_-_-\n");
+		printf("-_-Visit again-_-\n");
+		break;
+	case 4:
+		printf("How many do you want sir?");
+		scanf("%d",&no_of_items);
+		printf("\n-_-_-__Bill__-_-_-\n");
+		printf("Total Bill=%d\n",bill=no_of_items*50);
+		printf("-_-_-Thanks-_-_-\n");
+		printf("-_-Visit again-_-\n");
+		break;	
+	case 5:
+		printf("How many do you want sir?");
+		scanf("%d",&no_of_items);
+		printf("\n-_-_-__Bill__-_-_-\n");
+		printf("Total Bill=%d\n",bill=no_of_items*70);
+		printf("-_-_-Thanks-_-_-\n");
+		printf("-_-Visit again-_-\n");
+		break;
+
+		
+    default:
+	     printf("That type of food is not there sir\n");
+	     printf("Please check the menu\n");
+	     printf("-_-_Try again-_-_\n");
+	}
+	
+	
+	printf("1.Out standing\n");
+	printf("2.Good\n");
+	printf("3.Poor\n");
+	printf("Please give your feedback:\n");
+	scanf("%d",&feedback_choice);
+	
+	if (feedback_choice ==1||feedback_choice == 2||feedback_choice ==3) 
+            printf("-_-_-_-_-Thank you  Goodbye!-_-_-_-_-_-_\n");
+            
+	
+}
+}

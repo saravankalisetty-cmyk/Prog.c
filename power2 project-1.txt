@@ -1,0 +1,70 @@
+#include<stdio.h>
+
+main()
+{
+	int nu,cmr,pmr,choice;
+	float bill,total_bill_amount;
+	printf("1.Domestic:\n");
+	printf("2.comercial:\n");
+	printf("3.Industrial:\n");
+	printf("4.Agricultural:\n");
+	printf("Chouse your type of bill");
+	scanf("%d",&choice);
+	printf("\n********Power Bill*************\n");
+	printf("Enter CMR");
+	scanf("%d",&cmr);
+	printf("Enter PMR");
+	scanf("%d",&pmr);
+	printf("Total units:%d\n",nu=cmr-pmr);
+	switch(choice)
+	case 1:
+		{
+	if(nu>500)
+	    printf("Amount:%f\n",bill=nu*9.95);
+	else if(401<=nu<=500)
+	    printf("Amount:%f\n",bill=nu*8.05);
+	else if(301<=nu<=300)
+		printf("Amount:%f\n",bill=nu*7.95);
+	else if(201<=nu<=300)
+		printf("Amount:%f\n",bill=nu*7.10);
+    else if(101<=nu<=200)
+        printf("Amount:%f\n",bill=nu*5.40);
+	else if(51<=nu<=100)
+		printf("Amount:%f\n",bill=nu*3.35);
+	else if(0<=nu<=50)
+		printf("Amount:%f\n",bill=nu*2.65);
+	
+	printf("Serves charges 5Rs\n");
+	printf("Total bill amount:%f\n",total_bill_amount=bill+5);
+	printf("\n***********END*************\n");
+	break;
+	case 2:
+	if(nu>500)
+	printf("Amount:%f\n",bill=nu*10.75);
+	else if(301<=nu<=500)
+		printf("Amount:%f\n",bill=nu*9.60);
+	else if(101<=nu<=400)
+		printf("Amount:%f\n",bill=nu*9.05);
+	else if(51<=nu<=100)
+		printf("Amount:%f\n",bill=nu*7.65);
+	else if(0<=nu<=50)
+	    printf("Amount:%f\n",bill=nu*6.90);	
+	printf("Serves charges 5Rs\n");
+	printf("Total bill amount:%f\n",total_bill_amount=bill+5);
+	printf("\n***********END*************\n");
+	break; 
+	case 3:
+	    printf("Amount:%f\n",bill=nu*7.45);
+	    printf("Serves charges 100Rs\n");
+	    printf("Total bill amount:%f",total_bill_amount=bill+100);
+	    printf("\n***********END*************\n");
+	break;
+	case 4:
+        printf("Amount:%f\n",bill=nu*2.25);
+	    printf("Serves charges 10Rs\n");
+	    printf("Total bill amount:%f",total_bill_amount=bill+10);
+	    printf("\n***********END*************\n");
+    break; 
+}
+} 
+
