@@ -1,0 +1,165 @@
+#include<stdio.h>
+main()
+{
+	int account_choice,pin=1234,withdraw_amount,entered_pin,total,type_of_notes,check_balance;
+	int balance_1=1000000,balance_2=100000,balance_3=10000,balance_4=200000,balance_5=200000,total_balance;
+    printf("\n-------ATM Menu-----\n");
+	printf("1.savings account\n");
+	printf("2.current account\n");
+	printf("3.others account\n");
+	printf("4.Recurring Deposit account\n");
+	printf("5.Demat account\n");
+	printf("Check balance in\n");
+	printf("choose your account(1-5):");
+	scanf("%d",&account_choice);
+	
+    switch(account_choice){
+    	case 1:
+			printf("***********************\n");
+			printf("savings account\n");
+			printf("How much amount do you want to withdraw");
+			scanf("%d",&withdraw_amount);
+			printf("type of notes");
+			scanf("%d",&type_of_notes);
+			printf("total notes:%d\n",total=withdraw_amount/type_of_notes);
+			printf("Enter 4 digit pin:");
+        	scanf("%d",&entered_pin);
+        if(entered_pin!=pin)
+	     	printf("incorrect PIN. access denied.\n");
+	    else 
+	    {
+	    	if(entered_pin==pin)
+	    	printf("proceed\n");
+	    	total_balance=balance_1-withdraw_amount;
+			printf("current balance:%d\n",total_balance);
+			printf("Collect your cash\n");
+			printf("************************\n");
+			printf("\t\tTHANKS\t\t\n");
+			printf("\tHAVE A GOOD DAY\t\n");
+		 break;
+			case 2:
+			printf("***********************\n");
+			printf("current account\n");
+			printf("How much amount do you want to withdraw");
+			scanf("%d",&withdraw_amount);
+			printf("type of notes");
+			scanf("%d",&type_of_notes);
+			printf("total notes:%d\n",total=withdraw_amount/type_of_notes);
+			printf("Enter 4 digit pin:");
+        	scanf("%d",&entered_pin);
+        if(entered_pin!=pin)
+	     	printf("incorrect PIN. access denied.\n");
+	    else
+	    {
+	    	if(entered_pin==pin)
+ 
+	        printf("proceed\n");
+			total_balance=balance_2-withdraw_amount;;
+			printf("current balance:%d\n",total_balance);
+			printf(" Collect your cash\n");
+			printf("************************\n");
+			printf("\t\tTHANKS\t\t\n");
+			printf("\tHAVE A GOOD DAY\t\n");
+			break;
+			case 3:
+			printf("***********************\n");
+			printf("others account\n");
+			printf("How much amount do you want to withdraw");
+			scanf("%d",&withdraw_amount);
+			printf("type of notes");
+			scanf("%d",&type_of_notes);
+			printf("total notes:%d\n",total=withdraw_amount/type_of_notes);
+			printf("Enter 4 digit pin:");
+        	scanf("%d",&entered_pin);
+        if(entered_pin!=pin)
+	     	printf("incorrect PIN. access denied.\n");
+	    else
+	       {
+	       	if(entered_pin==pin)
+ 
+	        printf("proceed\n");
+			total_balance=balance_3-withdraw_amount;
+			printf("current balance:%d\n",total_balance);
+			printf("Collect your cash\n");
+			printf("************************\n");
+			printf("\t\tTHANKS\t\t\n");
+			printf("\tHAVE A GOOD DAY\t\n");
+			break;
+			case 4:
+			printf("***********************\n");
+			printf("Recurring Deposit account\n");
+			printf("How much amount do you want to withdraw");
+			scanf("%d",&withdraw_amount);
+			printf("type of notes");
+			scanf("%d",&type_of_notes);
+			printf("total notes:%d\n",total=withdraw_amount/type_of_notes);
+			printf("Enter 4 digit pin:");
+        	scanf("%d",&entered_pin);
+        if(entered_pin!=pin)
+	     	printf("incorrect PIN. access denied.\n");
+	    else
+	    {
+	    	if(entered_pin==pin)
+ 
+	        printf("proceed\n");
+			total_balance=balance_4-withdraw_amount;
+			printf("current balance:%d\n",total_balance);
+			printf(" Collect your cash\n");
+			printf("************************\n");
+			printf("\t\tTHANKS\t\t\n");
+			printf("\tHAVE A GOOD DAY\t\n");
+			break;
+			case 5:
+			printf("***********************\n");
+			printf("Demat account\n");
+			printf("How much amount do you want to withdraw");
+			scanf("%d",&withdraw_amount);
+			printf("type of notes");
+			scanf("%d",&type_of_notes);
+			printf("total notes:%d\n",total=withdraw_amount/type_of_notes);
+			printf("Enter 4 digit pin:");
+        	scanf("%d",&entered_pin);
+        if(entered_pin!=pin)
+	     	printf("incorrect PIN. access denied.\n");
+	    else
+	    {
+	    	if(entered_pin==pin)
+ 
+	        printf("proceed\n");
+			total_balance=balance_5-withdraw_amount;
+			printf("current balance:%d\n",total_balance);
+			printf("Collect your cash\n");
+			printf("************************\n");
+			printf("\t\tTHANKS\t\t\n");
+			printf("\tHAVE A GOOD DAY\t\n");
+			break;
+			case 6:
+			printf("*****************************\n");
+			if(entered_pin!=pin)
+	     	printf("incorrect PIN. access denied.\n");
+	    else 
+	    {
+	    	if(entered_pin==pin)
+	    	printf("proceed\n");
+	    	if(check_balance==1)
+	    	printf("Total balance is:%d",balance_1);
+			printf("Thanks  for using this ATM\n");
+			printf("\n-------Visit again-----\n");
+			printf("*****************************\n");
+			break;
+		}
+			
+		}
+			
+		}
+		   }
+        	
+		    
+		}
+		}
+}
+}
+
+
+
+
